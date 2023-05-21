@@ -3,7 +3,7 @@
 
 <div align="center">
   
-  <img src="./Images_Background/Logo HG.png" alt="logo" width="140"  height="auto" />
+  <img src="./Images/Logo HG.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>README</b></h3>
