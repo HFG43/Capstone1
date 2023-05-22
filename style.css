@@ -100,7 +100,6 @@ html {
 .main-program h2 {
   color: #fff;
   padding-top: 30px;
-  margin-bottom: 3rem;
   font-size: 20px;
   font-weight: 500;
 }
@@ -146,8 +145,14 @@ html {
   color: #272a31;
   padding-top: 30px;
   margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-speakers h2 {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .speaker-grid-container {
@@ -216,7 +221,8 @@ html {
   margin: 0.5rem 2% 1.5rem 2%;
   font-weight: 700;
   font-size: 0.75rem;
-  padding: 0.5rem 0;  
+  padding: 0.5rem 0;
+  width: 95%;
 }
 
 /* ||||||| ----------------- ABOUT MOBILE SECTION ------------------- |||||||| */
@@ -281,6 +287,12 @@ html {
   background-color: #fff;
 }
 
+.impact-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .review-impact-container h2 {
   padding-top: 2rem;
   margin-bottom: 12px;
@@ -298,6 +310,7 @@ html {
 .example-past-project-container {
   display: flex;
   flex-direction: column;
+  align-items: stretch;
   margin: 0 5.5% 10px 5.5%;
 }
 
