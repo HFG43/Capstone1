@@ -24,6 +24,23 @@ html {
 
 .nav-bar {
   display: flex;
+  margin: 5px 3.5% 5px 3.5%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburguer-menu {
+  width: 30px;
+  height: 30px;
+}
+
+.forum-logo {
+  width: 130px;
+  height: 50px;
+}
+
+.five-per-nature-logo {
+  height: 40px;
 }
 
 /* ||||||| ----------------- HOME MOBILE SECTION ------------------- |||||||| */
