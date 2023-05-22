@@ -237,6 +237,7 @@ html {
 .about-description {
   margin: 0 2.5% 0 2.5%;
   padding: 1.5rem 0;
+  line-height: 1.5rem;
 }
 
 .about-further-questions-container {
@@ -255,4 +256,72 @@ html {
   color: #272a31;
   font-size: 0.75rem;
   font-weight: 900;
+}
+
+    /* *********** Review Impact Sector ************* */
+
+.review-impact-container {
+  background-color: #fff;
+}
+
+.review-impact-container h2 {
+  padding-top: 2rem;
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.review-impact-container h3 {
+  padding-top: 20px;
+  margin-bottom: 2rem;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.example-past-project-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5.5% 10px 5.5%;
+}
+
+.project-pictures {
+  border: 1px solid #ec5242;
+  margin-bottom: 25px;
+  height: 35%;
+}
+
+   /* *********** Sponsors ************* */
+
+.sponsor-section-container {
+  background-color: #37393d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sponsor-title {
+  color: #fff;
+  padding-top: 20px;
+}
+
+.separator {
+ width: 30px;
+ height: 2px;
+ background-color: solid #ec5242;
+ border: solid 1px #ec5242;
+ margin: 10px 0 25px 0;
+}
+
+.sponsor-logos-container {
+  margin: 0 2% 2.5rem 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.sponsor-logo {
+  width: 100px;
+  height: 50px;
+  margin-bottom: 1.5rem;
 }
