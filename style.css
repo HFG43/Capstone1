@@ -26,7 +26,7 @@ html {
   display: flex;
 }
 
-/* ----------------- HOME INTRO SECTION ------------------- */
+/* ||||||| ----------------- HOME MOBILE SECTION ------------------- |||||||| */
 
 .home-intro {
   color: #ec5242;
@@ -200,4 +200,59 @@ html {
   font-weight: 700;
   font-size: 0.75rem;
   padding: 0.5rem 0;  
+}
+
+/* ||||||| ----------------- ABOUT MOBILE SECTION ------------------- |||||||| */
+
+.about-section {
+  background-color: #f8f6f6;
+}
+
+.about-intro-container {
+  margin: 0 2.5% 0 2.5%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 12px;
+  padding-bottom: 55px;
+  color: #ec5242;
+}
+
+.about-intro-container h2 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 18px;
+  align-self: center;
+}
+
+.about-intro-container h1 {
+  font-size: 2.3rem;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+.about-description-container {
+  background-color: #fff;
+}
+
+.about-description {
+  margin: 0 2.5% 0 2.5%;
+  padding: 1.5rem 0;
+}
+
+.about-further-questions-container {
+  background-color: #f8f6f6;
+  padding: 25px 0;
+}
+
+.about-further-questions-paragraph {
+  color:  #272a31;
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.about-contact-mail {
+  color: #272a31;
+  font-size: 0.75rem;
+  font-weight: 900;
 }
