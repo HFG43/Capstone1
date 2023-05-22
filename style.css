@@ -22,9 +22,11 @@ html {
 
 /* ----------------- NAVIGATION BAR ------------------- */
 
+/* ----------------- HOME INTRO SECTION ------------------- */
+
 .home-intro {
   color: #ec5242;
-  background-color: #f8f6f6;;
+  background-color: #f8f6f6;
 }
 
 .home-data-container {
@@ -35,7 +37,7 @@ html {
 
 .home-intro h2 {
   font-size: 1.3rem;
-  font-weight: 300;
+  font-weight: 500;
   margin-bottom: 15px;
 }
 
@@ -65,4 +67,54 @@ html {
   font-size: 20px;
 }
 
+/* ----------------- MAIN PROGRAM SECTION ------------------- */
 
+.main-program {
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}  
+
+.main-program h2 {
+  color: #fff;
+  padding-top: 30px;
+  margin-bottom: 3rem;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.activity {
+  display: flex;
+  margin: 0 3% 5px 3%;
+  background-color: #37393d;
+  align-items: center;
+
+}
+
+.activity div {
+  width: 45%;
+  padding: 1.5rem 0 1.5rem 0.5rem;
+  margin-right: 10px;
+}
+
+.activity span {
+  color: #ec5242;
+  font-size: 20px;
+}
+
+.activity p {
+  color: #fff;
+  font-size: 0.8rem;
+  width: 45%;
+}
+
+.join-global-forum {
+  all: unset;
+  color: #fff;
+  background-color: #ec5242;
+  outline: none;
+  padding: 2rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.8rem;
+}
