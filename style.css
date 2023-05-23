@@ -415,3 +415,18 @@ html {
   height: 50px;
   margin-bottom: 1.5rem;
 }
+
+  /* *********** Rights ************* */
+
+.legal-rights {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 0;
+  margin: 0 2.5%;
+}
+
+.legal-rights p {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-left: 2rem;
+}
