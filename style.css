@@ -620,4 +620,30 @@ html {
     margin: 0; 
   }
 
+  .about-further-questions-paragraph {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 0;
+    padding-bottom: 16px;
+  }
+
+  .about-contact-mail {
+    font-size: 1rem;
+    font-weight: 800;
+    margin-bottom: 7rem;
+  }
+
+  /* ----------- Logo section ------------ */
+
+  .logo-creation h2 {
+    padding-top: 4rem;
+    padding-bottom: 1.25rem;
+    margin: 0 15% 0 15%;
+    font-size: 30px;
+  }
+
+  .logo-creation p {
+    line-height: 25px;
+    margin: 20px 24% 2.5rem 24%; 
+  }
 }
