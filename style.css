@@ -466,29 +466,53 @@ html {
   /* *********** Main Program ************* */
   
   .all-activities-container {
-    margin: 0 14% 0 14%;
+    margin: 50px 14% 70px 14%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     column-gap: 3px;
-
   }
 
    .activity {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 0;
+    padding: 0;
+    height: 220px;
   }
 
   .activity div {
     flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 24px 0 8px 0;
+    width: 100%;
+  }
+
+  .program-icon {
+    padding-bottom: 12px;
+    margin: 0;
   }
 
   .activity span {
     font-size: 24px;
+    width: 94%;
+    display: flex;
+    justify-content: center;
   }
 
   .activity p {
+    width: 92%;
     font-size: 12px;
     font-weight: 700;
+    text-align: center;
   }
+
+  .see-whole-program-button {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 70px;
+  }
+  
 }
