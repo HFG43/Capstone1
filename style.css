@@ -12,10 +12,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.mobile {
-  display: initial;
-}
-
 .desktop {
   display: none;
 }
@@ -433,7 +429,11 @@ html {
 
 @media all and (min-width: 768px){
   
-    /* *********** Home Page ************* */
+  .mobile {
+    display: none;
+  }
+  
+  /* *********** Home Page ************* */
 
   .home-data-container {
     margin-left: 17.5%;
