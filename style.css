@@ -430,3 +430,43 @@ html {
   font-weight: 700;
   margin-left: 2rem;
 }
+
+@media all and (min-width: 768px){
+  .home-data-container {
+    margin-left: 16.5%;
+    margin-right: 25%;
+    padding-top: 90px;
+  }
+  
+  .home-intro h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .home-intro h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 20px; 
+  }
+  
+  .home-intro-parag-container{
+    padding: 2rem 5% 2rem 5%;
+    margin-left: -3.5%;
+    margin-bottom: 4rem;
+    font-size: 1.5rem;
+  }
+  
+  .home-intro-location-container {
+    margin: 0 1.5% 0 1.5%;
+    padding-bottom: 80px;
+    color: #272a31;
+  }
+  
+  .home-intro-location-container h2 {
+    font-weight: 900;
+    margin-bottom: 12px;
+    font-size: 39px;
+  }
+  
+}
