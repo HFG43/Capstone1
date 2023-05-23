@@ -300,10 +300,37 @@ html {
 
 /* *********** Logos Section ************* */
 
+.logo-creation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-creation h2 {
+  align-self: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.3rem;
+  margin: 0 15% 0 15%;
+  flex-wrap: wrap;
+  font-weight: 700;
+  font-size: 20px;
+  color: #272a31;
+}
+
+.logo-creation p {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #747373;
+  line-height: 25px;
+  margin: 0 2.5% 1.5rem 2.5%;
+
+}
+
 .forum-logo-containers {
   display: flex;
   border: solid 2px #f8f6f6;
   padding: 40px 0;
+  justify-content: space-evenly;
 }
 
 .forum-logo2 {
