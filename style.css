@@ -520,7 +520,7 @@ html {
 
   .section-speakers {
     padding-top: 50px;
-    padding-bottom: 70px;   
+    padding-bottom: 0;   
   }
   
   .section-speakers h2 {
@@ -559,5 +559,29 @@ html {
 
   .section-speakers {
     margin-bottom: 0;
+  }
+
+  .legal-rights {
+    margin: 0 16%;
+    padding: 4rem 0;
+  }
+
+  .sponsor-title {
+    font-size: 2rem;
+  }
+  .section-speakers h2 {
+    font-size: 2rem;    
+  }
+
+  .sponsor-logos-container {
+    margin: 0 0 2rem 0;
+    width: 94%;
+  }
+
+  .sponsor-logo {
+   margin: 0;
+   padding: 0;
+   width: auto;
+   height: 90px;
   }
 }
