@@ -264,7 +264,8 @@ html {
   font-size: 2.3rem;
   font-weight: 900;
   margin-bottom: 50px;
-  align-content: center;
+  align-self: center;
+  text-align: justify;
 }
 
 .about-description-container {
@@ -323,7 +324,7 @@ html {
   color: #747373;
   line-height: 25px;
   margin: 0 2.5% 1.5rem 2.5%;
-
+  text-align: justify;
 }
 
 .forum-logo-containers {
