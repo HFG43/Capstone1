@@ -635,6 +635,11 @@ html {
 
   /* ----------- Logo section ------------ */
 
+  .logo-section {
+    padding-bottom: 4rem;
+    border-bottom: solid 3px #f8f6f6;;
+  }
+
   .logo-creation h2 {
     padding-top: 4rem;
     padding-bottom: 1.25rem;
@@ -644,6 +649,15 @@ html {
 
   .logo-creation p {
     line-height: 25px;
-    margin: 20px 24% 2.5rem 24%; 
+    margin: 20px 24% 2.5rem 24%;
+    text-align: center;
+  }
+
+  .forum-logo-containers {
+    border: solid 2px #f8f6f6;
+    padding: 40px;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0 24%;
   }
 }
