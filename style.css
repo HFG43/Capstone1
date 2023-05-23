@@ -298,7 +298,23 @@ html {
   font-weight: 900;
 }
 
-    /* *********** Review Impact Sector ************* */
+/* *********** Logos Section ************* */
+
+.forum-logo-containers {
+  display: flex;
+  border: solid 2px #f8f6f6;
+  padding: 40px 0;
+}
+
+.forum-logo2 {
+  width: 220px;
+}
+
+.five-per-nature-logo2 {
+  width: 60px;
+} 
+
+/* *********** Review Impact Section ************* */
 
 .review-impact-container {
   background-color: #fff;
