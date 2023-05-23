@@ -223,12 +223,19 @@ html {
 .see-more {
   display: flex;
   justify-content: center;
-  border: 2px solid #f8f6f6;
+  border: 3px solid #dddada;
   margin: 0.5rem 2% 1.5rem 2%;
   font-weight: 700;
   font-size: 0.75rem;
   padding: 0.5rem 0;
   width: 95%;
+  border-radius: 5px;
+  box-shadow: 5px 5px #f8f6f6;
+}
+
+.down-arrow-icon {
+  width: 1rem;
+  margin-left: 12px;
 }
 
 /* ||||||| ----------------- ABOUT MOBILE SECTION ------------------- |||||||| */
@@ -257,7 +264,6 @@ html {
   font-size: 2.3rem;
   font-weight: 900;
   margin-bottom: 50px;
-  
   align-content: center;
 }
 
@@ -358,7 +364,6 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-
 }
 
 .sponsor-logo {
