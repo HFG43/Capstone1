@@ -432,16 +432,17 @@ html {
 }
 
 @media all and (min-width: 768px){
+  
+    /* *********** Home Page ************* */
+
   .home-data-container {
-    margin-left: 16.5%;
-    margin-right: 25%;
-    padding-top: 90px;
+    margin-left: 17.5%;
+    margin-right: 25%;    
   }
   
   .home-intro h2 {
-    font-size: 1.3rem;
-    font-weight: 500;
-    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
   }
   
   .home-intro h1 {
@@ -456,17 +457,38 @@ html {
     margin-bottom: 4rem;
     font-size: 1.5rem;
   }
-  
-  .home-intro-location-container {
-    margin: 0 1.5% 0 1.5%;
-    padding-bottom: 80px;
-    color: #272a31;
-  }
-  
+
   .home-intro-location-container h2 {
-    font-weight: 900;
-    margin-bottom: 12px;
+    font-weight: 900;    
     font-size: 39px;
   }
   
+  /* *********** Main Program ************* */
+  
+  .all-activities-container {
+    margin: 0 14% 0 14%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 3px;
+
+  }
+
+   .activity {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .activity div {
+    flex-direction: column;
+  }
+
+  .activity span {
+    font-size: 24px;
+  }
+
+  .activity p {
+    font-size: 12px;
+    font-weight: 700;
+  }
 }
