@@ -53,8 +53,6 @@ html {
   width: 100%;
   position: fixed;
   top: 0;
-  /* mix-blend-mode: multiply; */
-  /* backdrop-filter: blur(10px); */
 }
 
 .mobile-logo {
@@ -415,7 +413,6 @@ html {
 }
 
 .review-impact-container h3 {
-  margin-bottom: 2rem;
   font-size: 12px;
   font-weight: 700;
   color: #d3d3d3;
@@ -424,17 +421,54 @@ html {
 .example-past-project-container {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-  margin: 0 5.5% 10px 5.5%;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 2rem 5.5% 1rem 5.5%;
 }
 
-.project-pictures {
-  border: 1px solid #ec5242;
-  margin-bottom: 25px;
-  height: 35%;
+#tdf, #malleo {
+  background-color: #fff;
 }
 
+.bg-position-style div {
+  height: 14rem;
+  width: 27rem;
+  background-image: linear-gradient(rgba(235, 76, 65, 0.5), rgba(235, 76, 65, 0.5)), url(Images/Pictures/TDF334.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+#tdf div {
+  background-image: linear-gradient(rgba(235, 76, 65, 0.5), rgba(235, 76, 65, 0.5)), url(Images/Pictures/TDF334.jpg);
+}
+
+#malleo div {
+  background-image: linear-gradient(rgba(235, 76, 65, 0.5), rgba(235, 76, 65, 0.5)), url(Images/Pictures/Malleo334.jpg);
+}
+
+#tdf div:active {
+  background-image: url(Images/Pictures/TDF334.jpg);
+}
+
+#malleo div:active {
+  background-image: url(Images/Pictures/Malleo334.jpg);
+}
+
+#tdf div h2, #malleo div h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#tdf div p, #malleo div p {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+}
    /* *********** Sponsors ************* */
 
 .sponsor-section-container {
@@ -809,13 +843,16 @@ html {
   }
 
   /* ------------- past projects --------------- */
+
   .example-past-project-container {
+    display: flex;
     flex-direction: row;
-    justify-content: space-evenly;     
+    justify-content: space-evenly;
+    margin: 0 10%;
+    flex-wrap: wrap;
   }
 
   #tdf, #malleo {
-    border: 1px solid #ec5242;
     background-color: #fff;
   }
 
@@ -828,6 +865,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0.5rem;  
   }
   
   #tdf div {
