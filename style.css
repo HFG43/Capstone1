@@ -341,10 +341,6 @@ html {
 
 /* *********** Review Impact Section ************* */
 
-.review-impact-container {
-  background-color: #fff;
-}
-
 .impact-detail-container {
   display: flex;
   flex-direction: column;
@@ -418,6 +414,7 @@ html {
 .legal-rights {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   padding: 2rem 0;
   margin: 0 2.5%;
 }
@@ -659,5 +656,40 @@ html {
     justify-content: space-evenly;
     width: 50%;
     margin: 0 24%;
+  }
+
+  /* ------------Review Projects--------------- */
+
+  .review-impact-container {
+    padding-bottom: 5rem;
+  }
+  .review-impact-container h2 {
+   padding-top: 5rem;
+    font-size: 30px;   
+  }
+  
+  .review-impact-container h3 {
+    padding-top: 0;
+    margin-bottom: 2.2rem;
+    font-size: 1rem
+  }
+ 
+  .example-past-project-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 10% 10px 10%;    
+  }
+
+  .project-pictures {
+    width: 45%;
+    margin-bottom: 0;
+  }
+
+  .legal-rights2 {
+    background-color: #272a31 ;
+  }
+  
+  .legal-rights2 p {
+   color: #fff;
   }
 }

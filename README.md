@@ -4,6 +4,7 @@
 <div align="center">
   
   <img src="./Images/Logo HG.png" alt="logo" width="140"  height="auto" />
+  <img src="./Images/Forum Logo.png" alt="Project Logo"/>
   <br/>
 
   <h3><b>README</b></h3>
