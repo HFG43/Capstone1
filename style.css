@@ -150,7 +150,7 @@ html {
   align-items: center;
   background-image: url(./Images/background\ Capstone.jpg);
   background-color: rgba(245, 245, 245, 0.17);
-}  
+}
 
 .main-program h2 {
   color: #fff;
@@ -292,7 +292,7 @@ html {
 /* ||||||| ----------------- ABOUT MOBILE SECTION ------------------- |||||||| */
 
 .about-section {
-  background-color: #f8f6f6; 
+  background-color: #f8f6f6;
 }
 
 .about-intro-container {
@@ -466,7 +466,8 @@ html {
   font-weight: 700;
 }
 
-#tdf div p, #malleo div p {
+#tdf div p,
+#malleo div p {
   color: #fff;
   font-size: 1rem;
   font-weight: 700;
@@ -500,7 +501,7 @@ html {
   height: 3px;
   background-color: #d3d3d3;
   margin: 0.5rem 0;
- }
+}
 
 .sponsor-logos-container {
   margin: 0 2% 2.5rem 2%;
@@ -516,9 +517,22 @@ html {
   margin-right: 30px;
 }
 
-  /* *********** Rights ************* */
+/* *********** Rights ************* */
 
-.legal-rights, .legal-rights2 {
+.legal-rights2 p {
+  font-size: 10px;
+  font-weight: 400;
+  margin-left: 2rem;
+}
+  
+.legal-rights p {
+  font-size: 10px;
+  font-weight: 400;
+  margin-left: 2rem;
+}
+
+.legal-rights,
+.legal-rights2 {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -526,20 +540,7 @@ html {
   margin: 0 2.5%;
 }
 
-.legal-rights2 p {
-  font-size: 10px;
-  font-weight: 400;
-  margin-left: 2rem;
-}
-
-.legal-rights p {
-  font-size: 10px;
-  font-weight: 400;
-  margin-left: 2rem;
-}
-
 @media all and (min-width: 768px) {
-
   .mobile {
     display: none;
   }
@@ -565,7 +566,7 @@ html {
     margin-right: 3.5rem;
     font-size: 14px;
     font-weight: 800;
-    color: #37393d;  
+    color: #37393d;
   }
 
   .nav-bar-menu-li:link {
@@ -581,12 +582,12 @@ html {
     font-size: 1rem;
   }
 
-  a:hover, .nav-bar-menu-li:hover {
+  .nav-bar-menu-li:hover {
     color: #ec5242;
     font-size: 1rem;
   }
 
-  a:active, .nav-bar-menu-li:active {
+  .nav-bar-menu-li:active {
     color: #ec5242;
     font-size: 14px;
   }
@@ -619,7 +620,7 @@ html {
     margin-bottom: 20px;
   }
 
-  .home-intro-parag-container{
+  .home-intro-parag-container {
     padding: 2rem 5% 2rem 5%;
     margin-left: -3.5%;
     margin-bottom: 4rem;
@@ -640,7 +641,7 @@ html {
     column-gap: 3px;
   }
 
-   .activity {
+  .activity {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -738,7 +739,7 @@ html {
   }
 
   .section-speakers h2 {
-    font-size: 2rem; 
+    font-size: 2rem;
   }
 
   .sponsor-logos-container {
@@ -747,10 +748,10 @@ html {
   }
 
   .sponsor-logo {
-   margin: 0;
-   padding: 0;
-   width: auto;
-   height: 90px;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 90px;
   }
 
   /* ------------About Page------------ */
@@ -769,7 +770,7 @@ html {
     padding: 0;
   }
 
-   .about-intro-container h1 {
+  .about-intro-container h1 {
     margin-bottom: 1rem;
     margin-top: 90px;
     font-size: 4rem;
