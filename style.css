@@ -22,7 +22,8 @@ html {
 .nav-bar {
   display: flex;
   margin: 5px 3.5% 5px 3.5%;
-  flex-shrink: 2.5; 
+  flex-shrink: 2.5;
+  justify-content: space-between;
 }
 
 .hamburguer-menu {
@@ -69,6 +70,9 @@ html {
   border: solid 3px #fff;
   padding: 16px 3.5% 16px 3.5%;
   margin-bottom: 1.5rem;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%;
 }
 
 .home-intro-location-container {
@@ -82,6 +86,12 @@ html {
   font-size: 1.5rem;
   margin-bottom: 8px;
   font-size: 20px;
+}
+
+.home-intro-location-container p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 150%;
 }
 
 /* ----------------- MAIN PROGRAM SECTION ------------------- */
@@ -206,7 +216,7 @@ html {
   color: #ec5242;
   font-size: 0.7rem;
   font-weight: 700;
-  margin-bottom: 1.2rem;
+  margin-bottom: 0.6rem;
   font-style: italic;
 }
 
@@ -399,6 +409,13 @@ html {
  border: solid 1px #ec5242;
  margin: 10px 0 25px 0;
 }
+
+.separator-speaker {
+  width: 25px;
+  height: 3px;
+  background-color: solid #d3d3d3;
+  margin: 0.5rem 0;
+ }
 
 .sponsor-logos-container {
   margin: 0 2% 2.5rem 2%;
@@ -718,11 +735,16 @@ html {
     margin-bottom: 0;
   }
 
+  .legal-rights p {
+    font-size: 14px;
+  }
+
   .legal-rights2 {
     background-color: #272a31 ;
   }
   
   .legal-rights2 p {
    color: #fff;
+   font-size: 10px;
   }
 }
