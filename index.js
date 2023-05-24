@@ -83,6 +83,21 @@ function loadSpeakers(speaker) {
 </div>`;
 };
 
-for(let speaker = 0; speaker < speakers.length; speaker += 1){
-  loadSpeakers(speaker);
-}
+// for(let speaker = 0; speaker < speakers.length; speaker += 1){
+//   loadSpeakers(speaker);
+// }
+
+// const seeMoreButton = document.querySelector('.see-more');
+// const speakerTwo = document.getElementById('Invited-Speaker-2');
+// const speakerThree = document.getElementById('Invited-Speaker-3');
+// const speakerFour = document.getElementById('Invited-Speaker-4');
+// const speakerFive = document.getElementById('Invited-Speaker-5');
+
+// function applySeeMore () {
+//   speakerTwo.classList.remove('show');
+//   speakerThree.classList.remove('show');
+//   speakerFour.classList.remove('show');
+//   speakerFive.classList.remove('show');
+// }
+// seeMoreButton.addEventListener('click',applySeeMore);
+
