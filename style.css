@@ -18,12 +18,14 @@ html {
 }
 
 /* ----------------- NAVIGATION BAR ------------------- */
-
 .nav-bar {
+  position: fixed;
   display: flex;
-  margin: 5px 3.5% 5px 3.5%;
+  margin-bottom: 5px;
   flex-shrink: 2.5;
   justify-content: space-between;
+  background-color: #fff;
+  width: 100vw;
 }
 
 .hamburguer-menu {
@@ -502,7 +504,7 @@ html {
   }
 
   .nav-bar {
-    margin: 5px 0;
+    margin-bottom: 5px;
     justify-content: space-around;
   }
 
