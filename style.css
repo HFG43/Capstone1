@@ -107,7 +107,8 @@ html {
 .home-intro h1 {
   font-size: 2.5rem;
   font-weight: 900;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
+  line-height: 150%;
 }
 
 .home-intro-parag-container{
@@ -431,8 +432,8 @@ html {
 }
 
 .bg-position-style div {
-  height: 14rem;
-  width: 27rem;
+  height: 11.4rem;
+  width: 22rem;
   background-image: linear-gradient(rgba(235, 76, 65, 0.5), rgba(235, 76, 65, 0.5)), url(Images/Pictures/TDF334.jpg);
   background-size: cover;
   background-repeat: no-repeat;
