@@ -114,7 +114,7 @@ html {
   line-height: 150%;
 }
 
-.home-intro-parag-container{
+.home-intro-parag-container {
   color: #272a31;
   border: solid 3px #fff;
   padding: 16px 3.5% 16px 3.5%;
@@ -132,7 +132,6 @@ html {
 
 .home-intro-location-container h2 {
   font-weight: 900;
-  font-size: 1.5rem;
   margin-bottom: 8px;
   font-size: 20px;
 }
@@ -146,7 +145,6 @@ html {
 /* ----------------- MAIN PROGRAM SECTION ------------------- */
 
 .main-program {
-  background-color: #272a31;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -175,7 +173,6 @@ html {
 .activity {
   display: flex;
   margin: 0 3% 5px 3%;
-  background-color: #37393d;
   align-items: center;
   background-color: rgba(245, 245, 245, 0.15);
 }
@@ -258,7 +255,6 @@ html {
   position: relative;
   margin-top: 8%;
   z-index: 10;
-
 }
 
 .speaker-profile-data {
@@ -268,7 +264,7 @@ html {
 
 .speaker-profile-data-name {
   color: #272a31;
-  size: 1rem;
+  font-size: 1rem;
   font-weight: 700;
   padding-bottom: 10px;
 }
@@ -296,7 +292,7 @@ html {
 /* ||||||| ----------------- ABOUT MOBILE SECTION ------------------- |||||||| */
 
 .about-section {
-  background-color: #f8f6f6;  
+  background-color: #f8f6f6; 
 }
 
 .about-intro-container {
@@ -321,7 +317,7 @@ html {
 .about-intro-title-conatiner h1 {
   font-size: 2.3rem;
   font-weight: 900;
-  text-align: center;  
+  text-align: center;
 }
 
 .about-description-container {
@@ -344,7 +340,7 @@ html {
 }
 
 .about-further-questions-paragraph {
-  color:  #272a31;
+  color: #272a31;
   font-size: 0.75rem;
   font-weight: 700;
   line-height: 1.4rem;
@@ -377,7 +373,7 @@ html {
 .logo-creation p {
   font-weight: 700;
   font-size: 1rem;
-  color: d3d3d3;
+  color: #d3d3d3;
   line-height: 25px;
   margin: 0 2.5% 1.5rem 2.5%;
   text-align: justify;
@@ -397,7 +393,7 @@ html {
 
 .five-per-nature-logo2 {
   width: 60px;
-} 
+}
 
 /* *********** Review Impact Section ************* */
 
@@ -430,7 +426,8 @@ html {
   margin: 2rem 5.5% 1rem 5.5%;
 }
 
-#tdf, #malleo {
+#tdf,
+#malleo {
   background-color: #fff;
 }
 
@@ -462,7 +459,8 @@ html {
   background-image: url(Images/Pictures/Malleo334.jpg);
 }
 
-#tdf div h2, #malleo div h2 {
+#tdf div h2,
+#malleo div h2 {
   color: #fff;
   font-size: 2rem;
   font-weight: 700;
@@ -473,7 +471,8 @@ html {
   font-size: 1rem;
   font-weight: 700;
 }
-   /* *********** Sponsors ************* */
+
+/* *********** Sponsors ************* */
 
 .sponsor-section-container {
   background-color: #37393d;
@@ -489,17 +488,17 @@ html {
 }
 
 .separator {
- width: 30px;
- height: 2px;
- background-color: solid #ec5242;
- border: solid 1px #ec5242;
- margin: 10px 0 25px 0;
+  width: 30px;
+  height: 2px;
+  background-color: #ec5242;
+  border: solid 1px #ec5242;
+  margin: 10px 0 25px 0;
 }
 
 .separator-speaker {
   width: 25px;
   height: 3px;
-  background-color: solid #d3d3d3;
+  background-color: #d3d3d3;
   margin: 0.5rem 0;
  }
 
@@ -539,12 +538,12 @@ html {
   margin-left: 2rem;
 }
 
-@media all and (min-width: 768px){
-  
+@media all and (min-width: 768px) {
+
   .mobile {
     display: none;
   }
-  
+
   .desktop {
     display: initial;
   }
@@ -560,13 +559,13 @@ html {
     align-items: center;
     flex-shrink: 1.5;
   }
-    
+
   .nav-bar-menu-li {
     display: flex;
     margin-right: 3.5rem;
     font-size: 14px;
     font-weight: 800;
-    color: #37393d;    
+    color: #37393d;  
   }
 
   .nav-bar-menu-li:link {
@@ -606,20 +605,20 @@ html {
 
   .home-data-container {
     margin-left: 17.5%;
-    margin-right: 32%;    
+    margin-right: 32%;
   }
-  
+
   .home-intro h2 {
     font-size: 1.5rem;
     font-weight: 700;
   }
-  
+
   .home-intro h1 {
     font-size: 4rem;
     line-height: 100%;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
   }
-  
+
   .home-intro-parag-container{
     padding: 2rem 5% 2rem 5%;
     margin-left: -3.5%;
@@ -628,12 +627,12 @@ html {
   }
 
   .home-intro-location-container h2 {
-    font-weight: 900;    
+    font-weight: 900;
     font-size: 39px;
   }
-  
+
   /* *********** Main Program ************* */
-  
+
   .all-activities-container {
     margin: 50px 14% 70px 14%;
     display: grid;
@@ -683,18 +682,18 @@ html {
     font-weight: 400;
     margin-bottom: 70px;
   }
-  
+
   /* ----------- invited Speakers Section ----------- */
 
   .section-speakers {
     padding-top: 50px;
-    padding-bottom: 0;   
+    padding-bottom: 0;
   }
-  
+
   .section-speakers h2 {
     font-size: 2rem;
   }
-  
+
   #speaker-grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -737,8 +736,9 @@ html {
   .sponsor-title {
     font-size: 2rem;
   }
+
   .section-speakers h2 {
-    font-size: 2rem;    
+    font-size: 2rem; 
   }
 
   .sponsor-logos-container {
@@ -770,7 +770,7 @@ html {
   }
 
    .about-intro-container h1 {
-    margin-bottom: 1rem ;
+    margin-bottom: 1rem;
     margin-top: 90px;
     font-size: 4rem;
     line-height: 100%;
@@ -787,7 +787,7 @@ html {
     line-height: 1.5rem;
     font-size: 14px;
     font-weight: 400;
-    margin: 0; 
+    margin: 0;
   }
 
   .about-further-questions-paragraph {
@@ -807,7 +807,7 @@ html {
 
   .logo-section {
     padding-bottom: 4rem;
-    border-bottom: solid 3px #f8f6f6;;
+    border-bottom: solid 3px #f8f6f6;
   }
 
   .logo-creation h2 {
@@ -843,17 +843,18 @@ html {
   .review-impact-container {
     padding-bottom: 5rem;
   }
+
   .review-impact-container h2 {
    padding-top: 5rem;
-    font-size: 30px;   
+    font-size: 30px;
   }
-  
+
   .review-impact-container h3 {
     padding-top: 0;
     margin-bottom: 2.2rem;
-    font-size: 1rem
+    font-size: 1rem;
   }
- 
+
   .legal-rights p {
     font-size: 14px;
   }
@@ -866,10 +867,10 @@ html {
     padding: 2rem 0;
     margin: 0;
   }
-  
+
   .legal-rights2 p {
-   color: #fff;
-   font-size: 10px;
+    color: #fff;
+    font-size: 10px;
   }
 
   /* ------------- past projects --------------- */
@@ -882,7 +883,8 @@ html {
     flex-wrap: wrap;
   }
 
-  #tdf, #malleo {
+  #tdf,
+  #malleo {
     background-color: #fff;
   }
 
@@ -895,9 +897,9 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0.5rem;  
+    margin: 0.5rem;
   }
-  
+
   #tdf div {
     background-image: linear-gradient(rgba(235, 76, 65, 0.5), rgba(235, 76, 65, 0.5)), url(Images/Pictures/TDF334.jpg);
   }
@@ -914,13 +916,15 @@ html {
     background-image: url(Images/Pictures/Malleo334.jpg);
   }
 
-  #tdf div h2, #malleo div h2 {
+  #tdf div h2,
+  #malleo div h2 {
     color: #fff;
     font-size: 2rem;
     font-weight: 700;
   }
 
-  #tdf div p, #malleo div p {
+  #tdf div p,
+  #malleo div p {
     color: #fff;
     font-size: 1rem;
     font-weight: 700;
