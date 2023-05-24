@@ -18,14 +18,16 @@ html {
 }
 
 /* ----------------- NAVIGATION BAR ------------------- */
+
 .nav-bar {
   position: fixed;
   display: flex;
-  margin-bottom: 5px;
+  padding: 12px 0;
   flex-shrink: 2.5;
   justify-content: space-between;
   background-color: #fff;
   width: 100vw;
+  z-index: 99999;
 }
 
 .hamburguer-menu {
@@ -179,7 +181,7 @@ html {
 
 .activity span {
   color: #ec5242;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .activity p {
@@ -219,22 +221,6 @@ html {
   grid-template-columns: auto;
 }
 
-#Invited-Speaker-2 {
-
-}
-
-#Invited-Speaker-3 {
-  
-}
-
-#Invited-Speaker-4 {
-  
-}
-
-#Invited-Speaker-5 {
- 
-}
-
 .speaker-full-container {
   display: flex;
   margin: 0 2.5% 5px 2.5%;
@@ -252,14 +238,16 @@ html {
   width: 65px;
   position: absolute;
   float: left;
+  z-index: 1;
 }
 
 .speaker-picture {
   width: 65%;
-  height: 85%;
-  margin-left: 10%;
+  height: 75%;
+  margin-left: 8%;
   position: relative;
-  margin-top: 10%;
+  margin-top: 8%;
+  z-index: 10;
 
 }
 
@@ -290,19 +278,6 @@ html {
   padding-bottom: 5px;
 }
 
-.see-more {
-  display: flex;
-  justify-content: center;
-  border: 3px solid #dddada;
-  margin: 0.5rem 2% 1.5rem 2%;
-  font-weight: 700;
-  font-size: 0.75rem;
-  padding: 0.5rem 0;
-  width: 90vw;
-  border-radius: 5px;
-  box-shadow: 5px 5px #f8f6f6;
-}
-
 .down-arrow-icon {
   width: 1rem;
   margin-left: 12px;
@@ -317,7 +292,6 @@ html {
 .about-intro-container {
   margin: 0 2.5% 0 2.5%;
   display: flex;
-  flex-shrink: 2;
   flex-direction: column;
   padding-top: 12px;
   padding-bottom: 55px;
@@ -336,6 +310,7 @@ html {
   font-size: 2.3rem;
   font-weight: 900;
   text-align: center;
+  margin-top: 180px;
 }
 
 .about-description-container {
@@ -499,6 +474,7 @@ html {
 .sponsor-title {
   color: #fff;
   padding-top: 20px;
+  font-size: 20px;
 }
 
 .separator {
@@ -524,14 +500,15 @@ html {
 }
 
 .sponsor-logo {
-  width: 100px;
+  width: auto;
   height: 50px;
   margin-bottom: 1.5rem;
+  margin-right: 30px;
 }
 
   /* *********** Rights ************* */
 
-.legal-rights {
+.legal-rights, .legal-rights2 {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -539,9 +516,15 @@ html {
   margin: 0 2.5%;
 }
 
+.legal-rights2 p {
+  font-size: 10px;
+  font-weight: 400;
+  margin-left: 2rem;
+}
+
 .legal-rights p {
   font-size: 10px;
-  font-weight: 700;
+  font-weight: 400;
   margin-left: 2rem;
 }
 
@@ -621,8 +604,8 @@ html {
   }
   
   .home-intro h1 {
-    font-size: 2.5rem;
-    font-weight: 900;
+    font-size: 4rem;
+    line-height: 100%;
     margin-bottom: 20px; 
   }
   
@@ -670,7 +653,7 @@ html {
   }
 
   .activity span {
-    font-size: 24px;
+    font-size: 20px;
     width: 94%;
     display: flex;
     justify-content: center;
@@ -679,7 +662,7 @@ html {
   .activity p {
     width: 92%;
     font-size: 12px;
-    font-weight: 700;
+    font-weight: 400;
     text-align: center;
   }
 
@@ -740,6 +723,10 @@ html {
     padding: 4rem 0;
   }
 
+  .about-color-legal {
+
+  }
+
   .sponsor-title {
     font-size: 2rem;
   }
@@ -762,20 +749,31 @@ html {
   /* ------------About Page------------ */
 
   .about-intro-container {
-    margin: 0 25% 0 25%;
+    margin: 0.75rem 25% 0 25%;
     display: flex;
     flex-direction: column;
-    align-items: center;   
+    align-items: center;
+    padding-bottom: 0;
+  }
+
+  .about-intro-title-conatiner {
+    padding-top: 70px;
   }
 
   .about-intro-container h1 {
-    margin-bottom: 2rem ;
-    margin-top: 7rem;
+    margin-bottom: 1rem ;
+    margin-top: 90px;
     font-size: 4rem;
     line-height: 100%;
     text-align: center;
   }
 
+  .about-intro-container h2 {
+    margin-bottom: 12px ;
+    font-size: 2rem;
+    line-height: 100%;
+    text-align: center;
+  }
 
   .about-description-container {
     margin: 0 16.5% 0 16.5%;
@@ -831,6 +829,13 @@ html {
     margin: 0 24%;
   }
 
+  .sponsor-section-container {
+    background-color: #37393d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   /* ------------Review Projects--------------- */
 
   .review-impact-container {
@@ -852,7 +857,12 @@ html {
   }
 
   .legal-rights2 {
-    background-color: #272a31 ;
+    background-color: #272a31;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem 0;
+    margin: 0;
   }
   
   .legal-rights2 p {

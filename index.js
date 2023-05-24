@@ -73,7 +73,7 @@ const speakersContainer = document.querySelector('.dynamic-speakers');
 
 function loadSpeakers(speaker) {
   speakersContainer.id = 'speaker-grid-container';
-  speakersContainer.innerHTML +=`<div id="Invited-Speaker-${speaker}" class="speakers-container">
+  speakersContainer.innerHTML +=`<div id="${speaker}" class="speakers-container">
 <div class="speaker-full-container">
   <div class="speaker-picture-container">
     <img class="race-flag" src="./Images/Pictures/Race-flag.png">
@@ -91,24 +91,4 @@ function loadSpeakers(speaker) {
 
 for(let speaker = 0; speaker < speakers.length; speaker += 1){
   loadSpeakers(speaker);
-  
 }
-
-// for(let i = 2; i < speakers.length; i += 1){
-//    speaker[i].classList.add('show');
-// }
-
-// const seeMoreButton = document.querySelector('.see-more');
-// const speakerTwo = document.getElementById('Invited-Speaker-2');
-// const speakerThree = document.getElementById('Invited-Speaker-3');
-// const speakerFour = document.getElementById('Invited-Speaker-4');
-// const speakerFive = document.getElementById('Invited-Speaker-5');
-
-// function applySeeMore () {
-//   speakerTwo.classList.remove('show');
-//   speakerThree.classList.remove('show');
-//   speakerFour.classList.remove('show');
-//   speakerFive.classList.remove('show');
-// }
-// seeMoreButton.addEventListener('click',applySeeMore);
-
