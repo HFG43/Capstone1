@@ -147,6 +147,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url(./Images/background\ Capstone.jpg);
 }  
 
 .main-program h2 {
