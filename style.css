@@ -515,7 +515,7 @@ html {
     
   .nav-bar-menu-li {
     display: flex;
-    margin-right: 4em;
+    margin-right: 3.5rem;
     font-size: 14px;
     font-weight: 800;
     color: #37393d;    
@@ -545,11 +545,13 @@ html {
   }
 
   .gef-campaing {
+    display: flex;
     color: #ec5242;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 800;
     border: 3px solid #ec5242;
     padding: 1rem 1rem;
+    flex-wrap: nowrap;
   }
 
   /* *********** Home Page ************* */
