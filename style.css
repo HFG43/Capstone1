@@ -232,14 +232,14 @@ html {
 }
 
 .race-flag {
-  width: 70px;
+  width: 65px;
   position: absolute;
   float: left;
 }
 
 .speaker-picture {
-  width: 90%;
-  height: 90%;
+  width: 65%;
+  height: 85%;
   margin-left: 10%;
   position: relative;
   margin-top: 10%;

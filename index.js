@@ -28,7 +28,7 @@ const speakers = [
   {
     id: '0',
     name: 'Jon Anderson',
-    face: 'src="./Images/person-1.svg',
+    face: 'src="./Images/person-6.svg',
     role: 'Global Tax Leader at Ernst & Young',
     roleDescription: 'Anderson have been working the last 10 years implementing programs globaly.',
   },
