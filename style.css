@@ -3,7 +3,8 @@
   padding: 0;
   margin: 0;
   list-style: none;
-  transition: 0.4s;
+  transition: 0.3s;
+  border: 1px solid purple;
 }
   
 html {
@@ -21,8 +22,7 @@ html {
 .nav-bar {
   display: flex;
   margin: 5px 3.5% 5px 3.5%;
-  justify-content: space-between;
-  align-items: center;
+  flex-shrink: 2.5; 
 }
 
 .hamburguer-menu {
@@ -31,12 +31,12 @@ html {
 }
 
 .forum-logo {
-  width: 130px;
-  height: 50px;
+  width: 135px;
+  height: auto;
 }
 
 .five-per-nature-logo {
-  height: 40px;
+  height: 58px;
 }
 
 /* ||||||| ----------------- HOME MOBILE SECTION ------------------- |||||||| */
@@ -238,16 +238,18 @@ html {
 /* ||||||| ----------------- ABOUT MOBILE SECTION ------------------- |||||||| */
 
 .about-section {
-  background-color: #f8f6f6;
+  background-color: #f8f6f6;  
 }
 
 .about-intro-container {
   margin: 0 2.5% 0 2.5%;
   display: flex;
+  flex-shrink: 2;
   flex-direction: column;
   padding-top: 12px;
   padding-bottom: 55px;
   color: #ec5242;
+  justify-content: center;
 }
 
 .about-intro-container h2 {
@@ -257,12 +259,10 @@ html {
   align-self: center;
 }
 
-.about-intro-container h1 {
+.about-intro-title-conatiner h1 {
   font-size: 2.3rem;
   font-weight: 900;
-  margin-bottom: 50px;
-  align-self: center;
-  text-align: justify;
+  text-align: center;
 }
 
 .about-description-container {
@@ -273,6 +273,7 @@ html {
   margin: 0 2.5% 0 2.5%;
   padding: 1.5rem 0;
   line-height: 1.5rem;
+  text-align: justify;
 }
 
 .about-further-questions-container {
@@ -304,12 +305,11 @@ html {
   align-items: center;
 }
 
-.logo-creation h2 {
+.logo-creation-title {
   align-self: center;
   padding-top: 1.5rem;
-  padding-bottom: 1.3rem;
+  padding-bottom: 1rem;
   margin: 0 15% 0 15%;
-  flex-wrap: wrap;
   font-weight: 700;
   font-size: 20px;
   color: #272a31;
@@ -318,7 +318,7 @@ html {
 .logo-creation p {
   font-weight: 700;
   font-size: 1rem;
-  color: #747373;
+  color: d3d3d3;
   line-height: 25px;
   margin: 0 2.5% 1.5rem 2.5%;
   text-align: justify;
@@ -326,9 +326,10 @@ html {
 
 .forum-logo-containers {
   display: flex;
-  border: solid 2px #f8f6f6;
+  border: solid 2px #d3d3d3;
   padding: 40px 0;
   justify-content: space-evenly;
+  margin: 0 1.5rem 1rem 1.5rem;
 }
 
 .forum-logo2 {
@@ -342,6 +343,7 @@ html {
 /* *********** Review Impact Section ************* */
 
 .impact-detail-container {
+  border-top: solid 2px #d3d3d3;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -352,13 +354,14 @@ html {
   margin-bottom: 12px;
   font-size: 20px;
   font-weight: 700;
+  color: #37393d;
 }
 
 .review-impact-container h3 {
-  padding-top: 20px;
   margin-bottom: 2rem;
   font-size: 12px;
   font-weight: 700;
+  color: #d3d3d3;
 }
 
 .example-past-project-container {
@@ -366,6 +369,7 @@ html {
   flex-direction: column;
   align-items: stretch;
   margin: 0 5.5% 10px 5.5%;
+  justify-content: center;
 }
 
 .project-pictures {
@@ -420,7 +424,7 @@ html {
 }
 
 .legal-rights p {
-  font-size: 1rem;
+  font-size: 10px;
   font-weight: 700;
   margin-left: 2rem;
 }
@@ -435,11 +439,39 @@ html {
     display: initial;
   }
 
+  .nav-bar {
+    margin: 5px 0;
+    justify-content: space-around;
+  }
+
+  .navbar-menu-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+    
+  .nav-bar-menu-li {
+    margin-right: 4em;
+    font-size: 14px;
+    font-weight: 800;
+    color: #37393d;
+  }
+
+  .nav-bar-menu-li:hover {
+    color: #ec5242
+  }
+
+  .gef-campaing {
+    color: #ec5242;
+    border: 3px solid #ec5242;
+    padding: 1rem 1rem;
+  }
+
   /* *********** Home Page ************* */
 
   .home-data-container {
     margin-left: 17.5%;
-    margin-right: 25%;    
+    margin-right: 32%;    
   }
   
   .home-intro h2 {
@@ -682,6 +714,7 @@ html {
 
   .project-pictures {
     width: 45%;
+    height: auto;
     margin-bottom: 0;
   }
 
