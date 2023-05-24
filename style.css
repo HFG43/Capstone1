@@ -22,12 +22,12 @@ html {
 .nav-bar {
   position: fixed;
   display: flex;
-  padding: 12px 0;
+  padding: 6px 0;
   flex-shrink: 2.5;
   justify-content: space-between;
   background-color: #fff;
   width: 100vw;
-  z-index: 99999;
+  z-index: 50;
 }
 
 .hamburguer-menu {
@@ -55,6 +55,7 @@ html {
   width: 100%;
   position: fixed;
   top: 0;
+  z-index: 99999;
 }
 
 .mobile-logo {
@@ -150,6 +151,7 @@ html {
   flex-direction: column;
   align-items: center;
   background-image: url(./Images/background\ Capstone.jpg);
+  background-color: rgba(245, 245, 245, 0.17);
 }  
 
 .main-program h2 {
@@ -159,9 +161,15 @@ html {
   font-weight: 500;
 }
 
+.icon-container {
+  padding: 0;
+  margin: 0;
+}
+
 .program-icon {
   width: 45px;
-  margin-right: 12px;
+  margin: 0;
+  padding: 0;
 }
 
 .activity {
@@ -169,6 +177,7 @@ html {
   margin: 0 3% 5px 3%;
   background-color: #37393d;
   align-items: center;
+  background-color: rgba(245, 245, 245, 0.15);
 }
 
 .activity div {
@@ -177,6 +186,7 @@ html {
   margin-right: 1rem;
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 
 .activity span {
@@ -305,6 +315,7 @@ html {
   margin-bottom: 18px;
   align-self: center;
   margin-top: 78px;
+  text-align: center;
 }
 
 .about-intro-title-conatiner h1 {
@@ -557,7 +568,7 @@ html {
     font-weight: 800;
     color: #37393d;    
   }
-  
+
   .nav-bar-menu-li:link {
     color: #37393d;
   }
@@ -571,12 +582,12 @@ html {
     font-size: 1rem;
   }
 
-  .nav-bar-menu-li:hover {
+  a:hover, .nav-bar-menu-li:hover {
     color: #ec5242;
     font-size: 1rem;
   }
 
-  .nav-bar-menu-li:active {
+  a:active, .nav-bar-menu-li:active {
     color: #ec5242;
     font-size: 14px;
   }
@@ -587,7 +598,7 @@ html {
     font-size: 0.875rem;
     font-weight: 800;
     border: 3px solid #ec5242;
-    padding: 1rem 1rem;
+    padding: 0.5rem 1rem;
     flex-wrap: nowrap;
   }
 

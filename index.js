@@ -73,7 +73,7 @@ const speakersContainer = document.querySelector('.dynamic-speakers');
 
 function loadSpeakers(speaker) {
   speakersContainer.id = 'speaker-grid-container';
-  speakersContainer.innerHTML +=`<div id="${speaker}" class="speakers-container">
+  speakersContainer.innerHTML +=`<div id="${speakers[speaker].id}" class="speakers-container">
 <div class="speaker-full-container">
   <div class="speaker-picture-container">
     <img class="race-flag" src="./Images/Pictures/Race-flag.png">
