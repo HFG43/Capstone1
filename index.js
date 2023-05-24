@@ -8,19 +8,19 @@ const aboutButton = document.querySelector('.about');
 const programButton = document.querySelector('.program');
 const sponsorButton = document.querySelector('.sponsor');
 
-function mobileMenu () {
+function mobileMenu() {
   indexContainer.classList.remove('show');
 }
-hamburguer.addEventListener('click',mobileMenu);
+hamburguer.addEventListener('click', mobileMenu);
 
-function closeMobileMenu () {
+function closeMobileMenu() {
   indexContainer.classList.add('show');
 }
-closeButton.addEventListener('click',closeMobileMenu);
-homeButton.addEventListener('click',closeMobileMenu);
-aboutButton.addEventListener('click',closeMobileMenu);
-programButton.addEventListener('click',closeMobileMenu);
-sponsorButton.addEventListener('click',closeMobileMenu);
+closeButton.addEventListener('click', closeMobileMenu);
+homeButton.addEventListener('click', closeMobileMenu);
+aboutButton.addEventListener('click', closeMobileMenu);
+programButton.addEventListener('click', closeMobileMenu);
+sponsorButton.addEventListener('click', closeMobileMenu);
 
 // -------------Dynamic Speakers--------------
 
@@ -73,7 +73,7 @@ const speakersContainer = document.querySelector('.dynamic-speakers');
 
 function loadSpeakers(speaker) {
   speakersContainer.id = 'speaker-grid-container';
-  speakersContainer.innerHTML +=`<div id="${speakers[speaker].id}" class="speakers-container">
+  speakersContainer.innerHTML += `<div id="${speakers[speaker].id}" class="speakers-container">
 <div class="speaker-full-container">
   <div class="speaker-picture-container">
     <img class="race-flag" src="./Images/Pictures/Race-flag.png">
@@ -87,8 +87,8 @@ function loadSpeakers(speaker) {
   </div>
 </div>
 </div>`;
-};
+}
 
-for(let speaker = 0; speaker < speakers.length; speaker += 1){
+for (let speaker = 0; speaker < speakers.length; speaker += 1) {
   loadSpeakers(speaker);
 }

@@ -73,8 +73,6 @@ The original plan consists on a 5% of the pre-tax year profits to "return to the
   </ul>
 </details>
 
-<details>
-
 ### Key Features <a name="key-features"></a>
 
 - **[Use Linters]**
