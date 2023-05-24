@@ -61,8 +61,8 @@ a:active {
   width: 100%;
   position: fixed;
   top: 0;
-  mix-blend-mode: multiply;
-  backdrop-filter: blur(15px);
+  /* mix-blend-mode: multiply; */
+  /* backdrop-filter: blur(10px); */
 }
 
 .mobile-logo {
@@ -79,16 +79,20 @@ a:active {
 }
 
 .mobile-menu-list li {
-  padding-bottom: 1rem;
+  padding-bottom: 2.5rem;
   font-size: 2rem;
   font-weight: 800;
   color: #272a31;
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 
 .mobile-chevron {
   width: 45px;
+}
+
+.show {
+  display: none;
 }
 
 /* ||||||| ----------------- HOME MOBILE SECTION ------------------- |||||||| */
