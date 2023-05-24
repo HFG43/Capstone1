@@ -795,18 +795,6 @@ html {
     font-size: 1rem
   }
  
-  .example-past-project-container {
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: 0 10% 10px 10%;    
-  }
-
-  .project-pictures {
-    width: 45%;
-    height: auto;
-    margin-bottom: 0;
-  }
-
   .legal-rights p {
     font-size: 14px;
   }
@@ -818,5 +806,55 @@ html {
   .legal-rights2 p {
    color: #fff;
    font-size: 10px;
+  }
+
+  /* ------------- past projects --------------- */
+  .example-past-project-container {
+    flex-direction: row;
+    justify-content: space-evenly;     
+  }
+
+  #tdf, #malleo {
+    border: 1px solid #ec5242;
+    background-color: #fff;
+  }
+
+  .bg-position-style div {
+    height: 14rem;
+    width: 27rem;
+    background-image: linear-gradient(rgba(235, 76, 65, 0.5), rgba(235, 76, 65, 0.5)), url(Images/Pictures/TDF334.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #tdf div {
+    background-image: linear-gradient(rgba(235, 76, 65, 0.5), rgba(235, 76, 65, 0.5)), url(Images/Pictures/TDF334.jpg);
+  }
+
+  #malleo div {
+    background-image: linear-gradient(rgba(235, 76, 65, 0.5), rgba(235, 76, 65, 0.5)), url(Images/Pictures/Malleo334.jpg);
+  }
+
+  #tdf div:active {
+    background-image: url(Images/Pictures/TDF334.jpg);
+  }
+
+  #malleo div:active {
+    background-image: url(Images/Pictures/Malleo334.jpg);
+  }
+
+  #tdf div h2, #malleo div h2 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  #tdf div p, #malleo div p {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
   }
 }
