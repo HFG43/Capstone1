@@ -426,6 +426,18 @@ html {
   margin: 2rem 5.5% 1rem 5.5%;
 }
 
+.legal-rights2 p {
+  font-size: 10px;
+  font-weight: 400;
+  margin-left: 2rem;
+}
+  
+.legal-rights p {
+  font-size: 10px;
+  font-weight: 400;
+  margin-left: 2rem;
+}
+
 #tdf,
 #malleo {
   background-color: #fff;
@@ -518,18 +530,6 @@ html {
 }
 
 /* *********** Rights ************* */
-
-.legal-rights2 p {
-  font-size: 10px;
-  font-weight: 400;
-  margin-left: 2rem;
-}
-  
-.legal-rights p {
-  font-size: 10px;
-  font-weight: 400;
-  margin-left: 2rem;
-}
 
 .legal-rights,
 .legal-rights2 {
@@ -691,10 +691,6 @@ html {
     padding-bottom: 0;
   }
 
-  .section-speakers h2 {
-    font-size: 2rem;
-  }
-
   #speaker-grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -727,11 +723,6 @@ html {
 
   .section-speakers {
     margin-bottom: 0;
-  }
-
-  .legal-rights {
-    margin: 0 16%;
-    padding: 4rem 0;
   }
 
   .sponsor-title {
@@ -846,7 +837,7 @@ html {
   }
 
   .review-impact-container h2 {
-   padding-top: 5rem;
+    padding-top: 5rem;
     font-size: 30px;
   }
 
@@ -899,6 +890,11 @@ html {
     flex-direction: column;
     align-items: center;
     margin: 0.5rem;
+  }
+  
+  .legal-rights {
+    margin: 0 16%;
+    padding: 4rem 0;
   }
 
   #tdf div {
