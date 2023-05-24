@@ -4,7 +4,6 @@
   margin: 0;
   list-style: none;
   transition: 0.3s;
-  /* border: 1px solid purple; */
   text-decoration: none;
 }
   
@@ -14,12 +13,7 @@ html {
   scroll-behavior: smooth;
 }
 
-a:visited {
-  color: initial;
-}
-
-a:hover, 
-a:active {
+a:hover {
   color: #ec5242;
 }
 
@@ -222,7 +216,7 @@ a:active {
   font-weight: 400;
 }
 
-.speaker-grid-container {
+#speaker-grid-container {
   display: grid;
   grid-template-columns: auto;
 }
@@ -634,7 +628,7 @@ a:active {
     font-size: 2rem;
   }
   
-  .speaker-grid-container {
+  #speaker-grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0 14%;

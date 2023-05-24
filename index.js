@@ -27,38 +27,62 @@ sponsorButton.addEventListener('click',closeMobileMenu);
 const speakers = [
   {
     id: '0',
-    name: ' ',
-    role: '',
-    role-description: ''
+    name: 'Jon Anderson',
+    role: 'Global Tax Leader at Ernst & Young',
+    roleDescription: 'Anderson have been working the last 10 years implementing programs globaly.',
   },
   {
-
+    id: '1',
+    name: 'Rick Wakeman',
+    role: 'The Orvis Company Marketing VP',
+    roleDescription: 'Wakeman has been the first to implement the 5% for Nature program.',
   },
   {
-
+    id: '2',
+    name: 'Steve Howe',
+    role: 'Fly Dreamers Founder',
+    roleDescription: 'Howe implemented the program in a best in class Social Media company.',
   },
   {
-
+    id: '3',
+    name: 'Chris Squire',
+    role: 'Patagonia Managing Director',
+    roleDescription: 'Squire gives a great example of value brand creation by implementing restoration.',
   },
   {
-
+    id: '4',
+    name: 'Bill Bruford',
+    role: 'Argentine National Parks President',
+    roleDescription: 'Bruford have found a way to impact in improving the enviromental health in many communities.',
   },
   {
-
-  }
+    id: '5',
+    name: 'Alan White',
+    role: 'National Parks Asociation Patron',
+    roleDescription: 'White spent his life dedicated to increase the restoration areas worldwide.',
+  },
 ];
 
-`<div id="Invited-Speaker-5" class="speakers-container">
+const speakersContainer = document.querySelector('.dynamic-speakers');
+
+function loadSpeakers(speaker) {
+  speakersContainer.id = 'speaker-grid-container';
+  speakersContainer.innerHTML +=`<div id="Invited-Speaker-${speaker}" class="speakers-container">
 <div class="speaker-full-container">
   <div class="speaker-picture-container">
     <img class="race-flag" src="./Images/Pictures/Race-flag.png">
     <img class="speaker-picture" src="./Images/person-icon--icon-search-engine-3.png">
   </div>
   <div class="speaker-profile-data">
-    <h3 class="speaker-profile-data-name">Alan White</h3>
-    <p class="speaker-profile-data-role">National Parks Asociation Patron</p>
-    <div class="separator-speaker"></div>
-    <p class="speaker-profile-data-description">White spent his life dedicated to increase the restoration areas worldwide.</p>
+    <h3 class="speaker-profile-data-name">${speakers[speaker].name}</h3>
+    <p class="speaker-profile-data-role">${speakers[speaker].role}</p>
+    <div class="separator"></div>
+    <p class="speaker-profile-data-description">${speakers[speaker].roleDescription}</p>
   </div>
 </div>
-</div>`
+</div>`;
+};
+
+for(let speaker = 0; speaker < speakers.length; speaker += 1){
+  loadSpeakers(speaker);
+}
