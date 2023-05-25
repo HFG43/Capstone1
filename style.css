@@ -92,13 +92,39 @@ html {
 
 .home-intro {
   color: #ec5242;
-  background-color: #f8f6f6;
+}
+
+.overlay-gray-home {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(248, 246, 246, 0.913);
+}
+
+.bg-image-home {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-image: url(./Images/pexels-singkham-1108572.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .home-data-container {
   margin-left: 3.5%;
   margin-right: 3.5%;
   padding-top: 90px;
+  position: relative;
+  z-index: 2;
 }
 
 .home-intro h2 {
@@ -857,13 +883,18 @@ html {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 2rem 0;
+    padding: 4rem;
     margin: 0;
+  }
+
+  .legal-rights2 img {
+    margin-left: 15%;
   }
 
   .legal-rights2 p {
     color: #fff;
     font-size: 10px;
+    margin-right: 15%;
   }
 
   /* ------------- past projects --------------- */
