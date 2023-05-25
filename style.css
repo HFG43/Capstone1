@@ -537,8 +537,8 @@ html {
   font-weight: 700;
 }
 
-#tdf div p,
-#malleo div p {
+#tdf div h3,
+#malleo div h3 {
   color: #fff;
   font-size: 1rem;
   font-weight: 700;
