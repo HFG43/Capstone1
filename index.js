@@ -89,6 +89,8 @@ function loadSpeakers(speaker) {
 </div>`;
 }
 
+window.onload = () => {
 for (let speaker = 0; speaker < speakers.length; speaker += 1) {
   loadSpeakers(speaker);
 }
+};

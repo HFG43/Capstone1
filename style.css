@@ -102,8 +102,8 @@ html {
 }
 
 .home-intro h2 {
-  font-size: 1.3rem;
-  font-weight: 500;
+  font-size: 1.7rem;
+  font-weight: 300;
   margin-bottom: 15px;
 }
 
@@ -137,9 +137,10 @@ html {
 }
 
 .home-intro-location-container p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 150%;
+  padding-top: 90px;
 }
 
 /* ----------------- MAIN PROGRAM SECTION ------------------- */
@@ -495,7 +496,7 @@ html {
 }
 
 .sponsor-title {
-  color: #fff;
+  color: #d3d3d3;
   padding-top: 20px;
   font-size: 20px;
 }
