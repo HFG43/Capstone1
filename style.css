@@ -527,6 +527,8 @@ html {
   height: 50px;
   margin-bottom: 1.5rem;
   margin-right: 30px;
+  filter: grayscale(100%);
+  opacity: 0.5;
 }
 
 /* *********** Rights ************* */
