@@ -24,6 +24,16 @@ sponsorButton.addEventListener('click', closeMobileMenu);
 
 // -------------Dynamic Speakers--------------
 
+document.addEventListener('scroll', () => {
+  const toolbarHeader = document.querySelector('.toolbar-header');
+  const scrollCheck = window.scrollY;
+  if (scrollCheck > 10) {
+    toolbarHeader.classList.add('hide-bar');
+  } else {
+    toolbarHeader.classList.remove('hide-bar');
+  }
+});
+
 const speakers = [
   {
     id: '0',
@@ -92,13 +102,3 @@ function loadSpeakers(speaker) {
 for (let speaker = 0; speaker < speakers.length; speaker += 1) {
   loadSpeakers(speaker);
 }
-
-document.addEventListener('scroll', () => {
-  const toolbarHeader = document.querySelector('.toolbar-header');
-  const scrollCheck = window.scrollY;
-  if (scrollCheck > 10) {
-    toolbarHeader.classList.add('hide-bar');
-  } else {
-    toolbarHeader.classList.remove('hide-bar');
-  }
-});
