@@ -342,6 +342,10 @@ html {
   z-index: 1;
 }
 
+.about-section {
+  background-color: #f8f6f6;
+}
+
 .about-intro-container {
   margin: 0 2.5% 0 2.5%;
   display: flex;
@@ -781,12 +785,13 @@ html {
   }
 
   .sponsor-logos-container {
-    margin: 0 0 2rem 0;
+    margin: 0 2.5rem 2rem 2.5rem;
     width: 94%;
+    justify-content: center;
   }
 
   .sponsor-logo {
-    margin: 0;
+    margin: 0 1rem 0;
     padding: 0;
     width: auto;
     height: 90px;
