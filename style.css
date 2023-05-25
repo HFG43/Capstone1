@@ -352,10 +352,6 @@ html {
   z-index: 1;
 }
 
-.about-section {
-  background-color: #f8f6f6;
-}
-
 .about-intro-container {
   margin: 0 2.5% 0 2.5%;
   display: flex;
@@ -621,7 +617,7 @@ html {
     padding: 5px 15% 5px 5px;
     display: block;
   }
-  
+
   .toolbar-header.hide-bar {
     display: none;
   }
@@ -715,7 +711,7 @@ html {
   .home-intro h1 {
     font-size: 4rem;
     line-height: 100%;
-    margin-bottom: 20px;    
+    margin-bottom: 20px; 
   }
 
   .home-intro-parag-container {
@@ -912,6 +908,7 @@ html {
     margin: 0 15% 0 15%;
     font-size: 30px;
   }
+
   .separator {
     margin: 6px;
   }
