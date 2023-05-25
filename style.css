@@ -19,20 +19,30 @@ html {
 
 /* ----------------- NAVIGATION BAR ------------------- */
 
+.toolbar-header {
+  display: none;
+}
+
 .nav-bar {
-  position: fixed;
+  position: absolute;
   display: flex;
   padding: 6px 0;
   flex-shrink: 2.5;
   justify-content: space-between;
-  background-color: #fff;
+  background-color: transparent;
   width: 100vw;
   z-index: 50;
+}
+
+.toolbar-logo {
+  width: 22px;
+  height: 22px;
 }
 
 .hamburguer-menu {
   width: 30px;
   height: 30px;
+  padding: 15px 0 0 15px;
 }
 
 .forum-logo {
@@ -604,9 +614,38 @@ html {
     display: initial;
   }
 
+  .toolbar-header {
+    background-color: #272a31;
+    width: 100%;
+    height: 30px;
+    padding: 5px 15% 5px 5px;
+    display: block;
+  }
+  
+  .toolbar-header.hide-bar {
+    display: none;
+  }
+
+  .container-toolbar-header {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .container-toolbar-header li a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+  }
+
   .nav-bar {
     margin-bottom: 5px;
     justify-content: space-around;
+    position: fixed;
+    background-color: #fff;
   }
 
   .navbar-menu-list {

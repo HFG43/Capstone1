@@ -92,3 +92,13 @@ function loadSpeakers(speaker) {
 for (let speaker = 0; speaker < speakers.length; speaker += 1) {
   loadSpeakers(speaker);
 }
+
+document.addEventListener('scroll', function() {
+  const toolbar_header = document.querySelector('.toolbar-header');
+  const scrollCheck = window.scrollY;
+  if(scrollCheck > 10) {
+    toolbar_header.classList.add('hide-bar');
+  } else {
+    toolbar_header.classList.remove('hide-bar');
+  }
+});
