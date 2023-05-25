@@ -429,7 +429,7 @@ html {
   color: #272a31;
 }
 
-.logo-creation p {
+.logo-creation h3 {
   font-weight: 700;
   font-size: 0.8rem;
   color: #37393d;
@@ -485,7 +485,7 @@ html {
   margin: 2rem 5.5% 1rem 5.5%;
 }
 
-.legal-rights2 p {
+.legal-rights2 h5 {
   font-size: 10px;
   font-weight: 400;
   margin-left: 2rem;
@@ -913,7 +913,7 @@ html {
     margin: 6px;
   }
 
-  .logo-creation p {
+  .logo-creation h3 {
     line-height: 25px;
     margin: 0 24% 2.5rem 24%;
     text-align: center;
@@ -969,7 +969,7 @@ html {
     margin-left: 15%;
   }
 
-  .legal-rights2 p {
+  .legal-rights2 h5 {
     color: #fff;
     font-size: 10px;
     margin-right: 15%;
@@ -1030,8 +1030,8 @@ html {
     font-weight: 700;
   }
 
-  #tdf div p,
-  #malleo div p {
+  #tdf div h3,
+  #malleo div h3 {
     color: #fff;
     font-size: 1rem;
     font-weight: 700;
