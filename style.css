@@ -91,7 +91,10 @@ html {
 /* ||||||| ----------------- HOME MOBILE SECTION ------------------- |||||||| */
 
 .home-intro {
+  width: 100%;
+  position: relative;
   color: #ec5242;
+  padding: 190px 0 100px;
 }
 
 .overlay-gray-home {
@@ -122,14 +125,13 @@ html {
 .home-data-container {
   margin-left: 3.5%;
   margin-right: 3.5%;
-  padding-top: 90px;
   position: relative;
   z-index: 2;
 }
 
 .home-intro h2 {
   font-size: 1.7rem;
-  font-weight: 300;
+  font-weight: 500;
   margin-bottom: 15px;
 }
 
@@ -152,21 +154,19 @@ html {
 
 .home-intro-location-container {
   margin: 0 1.5% 0 1.5%;
-  padding-bottom: 80px;
   color: #272a31;
 }
 
 .home-intro-location-container h2 {
   font-weight: 900;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   font-size: 20px;
 }
 
 .home-intro-location-container p {
   font-size: 16px;
   font-weight: 700;
-  line-height: 150%;
-  padding-top: 90px;
+  line-height: 1.5;
 }
 
 /* ----------------- MAIN PROGRAM SECTION ------------------- */
@@ -659,10 +659,13 @@ html {
 
   /* *********** Home Page ************* */
 
+  .home-intro {
+    padding: 230px 0 120px;
+  }
+
   .home-data-container {
     margin-left: 17.5%;
     margin-right: 32%;
-    padding-top: 160px;
   }
 
   .home-intro h2 {
