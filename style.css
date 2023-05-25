@@ -322,6 +322,26 @@ html {
   background-color: #f8f6f6;
 }
 
+.img-shape-headline {
+  position: absolute;
+  top: 3.4rem;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-size: 100%;
+  background-position: center top;
+  background-image: url(./Images/about-shape.png);
+}
+
+.main-headline-about-container {
+  position: relative;
+  z-index: 1;
+}
+
 .about-intro-container {
   margin: 0 2.5% 0 2.5%;
   display: flex;
@@ -773,6 +793,14 @@ html {
   }
 
   /* ------------About Page------------ */
+
+  .img-shape-headline {
+    top: 0;
+    background-position: center center;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+  }
 
   .about-intro-container {
     margin: 0 25% 0 25%;
