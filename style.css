@@ -517,7 +517,7 @@ html {
 }
 
 .sponsor-logos-container {
-  margin: 0 2% 2.5rem 2%;
+  margin: 0 5% 2.5rem 5%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -527,7 +527,7 @@ html {
   width: auto;
   height: 50px;
   margin-bottom: 1.5rem;
-  margin-right: 30px;
+  margin-right: 16px;
   filter: grayscale(100%);
   opacity: 0.5;
 }
@@ -610,23 +610,24 @@ html {
   .home-data-container {
     margin-left: 17.5%;
     margin-right: 32%;
+    padding-top: 160px;
   }
 
   .home-intro h2 {
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 400;
   }
 
   .home-intro h1 {
     font-size: 4rem;
     line-height: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
   }
 
   .home-intro-parag-container {
     padding: 2rem 5% 2rem 5%;
     margin-left: -3.5%;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     font-size: 1.5rem;
   }
 
@@ -726,7 +727,7 @@ html {
   }
 
   .sponsor-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .section-speakers h2 {

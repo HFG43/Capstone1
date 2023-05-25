@@ -62,7 +62,7 @@ const speakers = [
   },
   {
     id: '5',
-    name: 'Alan White',``
+    name: 'Alan White',
     face: 'src="./Images/person-5.svg',
     role: 'National Parks Asociation Patron',
     roleDescription: 'White spent his life dedicated to increase the restoration areas worldwide.',
@@ -89,8 +89,6 @@ function loadSpeakers(speaker) {
 </div>`;
 }
 
-window.onload = () => {
 for (let speaker = 0; speaker < speakers.length; speaker += 1) {
   loadSpeakers(speaker);
 }
-};
