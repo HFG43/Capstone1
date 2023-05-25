@@ -4,13 +4,163 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Global Enviromental Forum</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-  <link src="style.css" ref="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/db2c8620f4.js" crossorigin="anonymous"></script>
+  
 </head>
 <body>
-  <script src="index.js"></script>    
+   <header id="header-container desktop">
+    <div class="toolbar-header">
+      <ul class="container-toolbar-header">
+        <li><img class="toolbar-logo" src="./Images/facebook-svgrepo-com.svg" alt="Facebook Icon"></li>
+        <li><img class="toolbar-logo" src="./Images/twitter-svgrepo-com.svg" alt="Twitter Icon"></li>
+        <li><a href="#">English</a></li>
+        <li><a href="#">Mypage</a></li>
+        <li><a href="#">Logout</a></li>
+      </ul>
+    </div>
+    <nav class="nav-bar">
+      <div class="mobile"><img class="hamburguer-menu" src="./Images/Hamburguer_Menu.png"/></div>
+      <a href="index.html"><img class="forum-logo desktop" src="./Images/Forum Logo.png"/></a>
+      <ul class="navbar-menu-list desktop">
+        <li><a class="nav-bar-menu-li" href="about.html">About</a></li>
+        <li><a class="nav-bar-menu-li" href="#program">Program</a></li>
+        <li><a class="nav-bar-menu-li"href="#">Join</a></li>
+        <li><a class="nav-bar-menu-li">Sponsor</a></li>
+        <li><a class="nav-bar-menu-li" href="#">News</a></li>
+        <li><a class="gef-campaing" href="#">GEF Campaign</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="home-intro">
+      <div class="overlay-gray-home"></div>
+      <div class="bg-image-home"></div>
+      <div class="home-data-container">
+        <h2>"Protect your future enviroment!!"</h2>
+        <h1>CONSERVATION GLOBAL FORUM 2023</h1>
+        <div>  
+          <h3 class="home-intro-parag-container">A massive kickoff where the most respectable Sustainability Desginers will define a Global plan to protect our nature.</h3>
+        </div>  
+        <div class="home-intro-location-container">
+          <h2>2023.05.24(WED) ~ 26(FRI)</h2>
+          <h3>@ Chapelco Golf Resort, San Martín de Los Andes, Argentine Patagonia. </h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="program" class="main-program">
+      <h2>Main Program</h2>
+      <div class="separator"></div>
+
+      <div class="all-activities-container">
+        <div class="activity-container">
+          <div class="activity">
+          <div class="icon-container">
+            <img class="program-icon" src="./Images/Icons/planet-earth-svgrepo-com.svg" alt="Planet Icon"/>
+            <span>Sponsors</span>
+          </div>
+          <p class="activity-paragraph">Know what enviromental care companies are doing about restoration.</p>
+        </div>
+      </div>  
+
+      <div class="activity-container">
+        <div class="activity">
+          <div>
+            <img class="program-icon" src="./Images/Icons/document-envelope-envelope-general-svgrepo-com.svg" alt="Envelope Icon"/>
+            <span>Projects</span>
+          </div>
+          <p>Appreciate various proteccionism parks and landscapes recovered using private companies profits.</p>
+        </div>
+      </div>  
+
+      <div class="activity-container">
+        <div class="activity">
+          <div>
+            <img class="program-icon" src="./Images/Icons/average-image-image-images-svgrepo-com.svg" alt="Administration Icon"/>
+            <span>Brand Value</span>
+          </div>
+          <p>Learn about how these iniciatives generate growth in their brands value.</p>
+        </div>
+      </div>  
+
+      <div class="activitiy-container">
+        <div class="activity">
+          <div>
+            <img class="program-icon" src="./Images/Icons/general-graph-increase-svgrepo-com.svg" alt="Finance Icon"/>
+            <span>Tax Impact</span>
+          </div>
+          <p>Learn from Ernst & Young tax experts how to apply a tax program and increase your long term return.</p>
+        </div>
+      </div>  
+
+      <div class="activity-container">
+        <div class="activity">
+          <div>
+            <img class="program-icon" src="./Images/Icons/award-champion-general-svgrepo-com.svg" alt="champion Award Icon"/>
+            <span>Leading Case</span>
+          </div>
+          <p>Hear actual companies success cases directly from their leaders.</p>
+        </div>
+      </div>
+
+      </div>
+
+      <button class="join-global-forum mobile">Join Enviromental Forum 2023</button>
+      <a href="#" class="see-whole-program-button desktop">SEE THE WHOLE PROGRAM</a>
+    </section>
+
+  <!-- ------------- Featured Speakers --------------- -->
+
+    <section class="section-speakers">
+      <h2>Invited Speakers</h2>
+      <div class="separator"></div>
+    
+      <div class="dynamic-speakers"> 
+      </div>
+    </section>
+  </main>
+
+  <!-- --------------------- <SPONSORS SECTION> --------------------- -->
+ 
+  <section>
+    <div class="sponsor-section-container desktop">
+      <h2 class="sponsor-title">Sponsors</h2>
+      <div class="separator"></div>
+  
+      <div class="sponsor-logos-container">
+        <img class="sponsor-logo" src="./Images/nature sin fondo.png" alt="Main Sponsor Orvis Company, 5 percent for Nature Logo">
+        <img class="sponsor-logo" src="./Images/National Parks Asociation.jpg" alt="Sponsor National Parks Asociation Logo">       
+        <img class="sponsor-logo fd" src="./Images/flyDreamers Logo.png" alt="Main Sponsor Fly Dreamers Logo">
+        <img class="sponsor-logo" src="./Images/Parques Nacionales Argentina.png" alt="Sponsor National Parks from Argentina logo">
+        <img class="sponsor-logo" src="./Images/Patagonia.png" alt="Sponsor Patagonia Brand Logo">
+      </div>
+  
+    </div>
+  </section>
+       <!-- --------------------- <RIGHTS SECTION> --------------------- -->
+  <footer>
+    <div class="legal-rights">
+      <img src="./Images/Forum Logo.png" alt="Global forum Logo"/>
+      <h5>Original Idea by Cindy Shin for Creative Commons Korea 2015. Some Rights Reserved.</h5>
+    </div>
+  </footer>
+
+  <div class="mobile-menu-container show">
+    <img class="mobile-logo" src="./Images/GEF 300 px.png"/>
+    <div id="mobile-close-cross"><img src="./Images/Icons/close-sm-svgrepo-com.svg"/></div>
+    <ul class="mobile-menu-list">
+      <a href="index.html"><li class="home">Home<img class="mobile-chevron" src="./Images/Icons/chevron-right-md-svgrepo-com.svg"/></li></a>
+      <a href="about.html"><li class="about">About<img class="mobile-chevron" src="./Images/Icons/chevron-right-md-svgrepo-com.svg"/></li></a>
+      <a href="#"><li class="program">Program<img class="mobile-chevron" src="./Images/Icons/chevron-right-md-svgrepo-com.svg"/></li></a>
+      <a href="#"></a><li class="sponsor">Sponsor<img class="mobile-chevron" src="./Images/Icons/chevron-right-md-svgrepo-com.svg"/></li></a>
+    </ul>  
+  </div>
+<script src="index.js"></script>    
 </body>
 </html>

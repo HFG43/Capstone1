@@ -33,14 +33,13 @@
 - [📝 License](#license)
 
 
-# 📖 [Capstone #1] <a name="about-project"></a>
+# 📖 [Global Enviromental Forum] <a name="about-project"></a>
 
-Is a first project to prepare the arena to showcase my future Portfolio as software developer. Here you will find a first deployment to present my portfolio works and professional skills, and you will also have the option of sending me a message. As part of the features, some of the sections are loaded dynamicaly using JavaScript. Also, as a way to include usable and robus we are including data side validation, prior to sending to the server. And whatsmore, to improving the UX expierence, the data added to the form will be saved localy to be reusable.
+This project is about the creation of a Global Forum to continue the work of some pioneering companies that started on the 80's to work on different plans to recover and conserve different landscape enviroments.
 
-Here you will find a Loom video explaining main goal, what was new for me and which challenges I faced during the preparation of this project, enjoy!
-[Portfolio project video](https://www.loom.com/share/cccee21071244920a217c4f1d6450c49)
+The original plan consists on a 5% of the pre-tax year profits to "return to the planet". The speakers on this event, will not only present actual cases and ideas, but they whill also present how this will impact in a positive way in your company long term revenue, in the value brand and also how it will impact positively in your taxes.
 
-**[Portfolio]** is a starting point to getting prepare to present my future portfolio in a responsive and dynamic way.
+**[Global Enviromental Forum]** is my first Capstone project, where I put on practice all subjects learned during the first 5 weeks of Microverse. In this project I have followed an example idea, and apply responsive design, the use of best practicies for HTML, CSS & JavaScript.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -74,34 +73,23 @@ Here you will find a Loom video explaining main goal, what was new for me and wh
   </ul>
 </details>
 
-<details>
-<summary>Data</summary>
-  <ul>
-    <li><a href="https://formspree.io/html/">Formspree</a></li>
-    <li>Client side Data Validation using JavaScript</li>
-  </ul>
-</details>
-
 ### Key Features <a name="key-features"></a>
 
-- **[Form data input will be saved in local storage]**
-- **[Form input validation using JavaScript]**
-- **[Includes dynamic pop ups for each project and screen size]**
-- **[Cards HTML section is created whe the page loads]**
-- **[Includes a video explaining the project goal]**
-- **[Includes a Mobile Menu displayed dynamicaly using JS events]**
-- **[First approach to a responsive portfolio design]**
-- **[Includes my mobile & desktop design. I have used @Media queries to introduce responsiveness]**
-- **[To position elements in place, and to prepare them for a RWD, I udes Flex-Box and CSS Grid Layout]**
-- **[Introduction of my skills as professional developer]**
-- **[Contact form -with client side validation- where you will be able to send me your messages]**
-- **[Includes a deployment link to being able to see the project in any browser and dispositive]**
+- **[Use Linters]**
+- **[Follow Git Flow]**
+- **[Use HTML5 semantic tags]**
+- **[Followed best practicies on CSS to ensure a clean code]**
+- **[Use Flex-Box and Grid Layout to position elemnts in place]**
+- **[Followed guidelines for Responsve Design by a Mobile first Approach]**
+- **[Use Media Queries]**
+- **[Use DOM Manipulation & Events to generate dynamic]**
+- **[Deploy Using GitHub Pages]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[My portfolio live demo link](https://hfg43.github.io/Portfolio_Mobile_First/)
+[My portfolio live demo link](https://hfg43.github.io/Capstone1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,7 +106,7 @@ Open on Visual Studio Code or any other code reader, and use an app as Live Serv
 
 Clone this repository to your desired folder:
 
-git clone https://github.com/HFG43/Portfolio_Mobile_First
+git clone https://hfg43.github.io/Capstone1/
 
 ### Install
 
@@ -144,7 +132,7 @@ No test available yet.
 
 You can deploy this project using:
 
-[My portfolio deployment link](https://hfg43.github.io/Portfolio_Mobile_First/)
+[My portfolio deployment link](https://hfg43.github.io/Capstone1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,19 +147,11 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/najibullahjafari)
-- Twitter: [@twitterhandle](https://twitter.com/Najib_Jafari_)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/najibulla-jafari-609852263/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## 🔭 Future Features <a name="future-features"></a>
 
 - **[Animations & Transitions]**
 - **[Accesibility taken into consideration]**
-- **[Use of Bootstrap and CSS preprocessors ]**
+- **[Add form to get your place in the event]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -193,7 +173,7 @@ If you like this project, please Star it!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank to my coding partner Anwar Hussaini [@githubhandle](https://github.com/M-Anwar-Hussaini) for working together with the contact form section!
+I wil like to thank to Cindy Shin, the author of the original project on which I have based my design. The idea is property of Creative Commons Korea (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015). 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
