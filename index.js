@@ -34,7 +34,7 @@ document.addEventListener('scroll', () => {
   }
 });
 
-const speakers = [
+const speakers = {
   {
     id: '0',
     name: 'Jon Anderson',
@@ -77,7 +77,7 @@ const speakers = [
     role: 'National Parks Asociation Patron',
     roleDescription: 'White spent his life dedicated to increase the restoration areas worldwide.',
   },
-];
+};
 
 const speakersContainer = document.querySelector('.dynamic-speakers');
 
@@ -90,7 +90,7 @@ function loadSpeakers(speaker) {
     <img class="speaker-picture" ${speakers[speaker].face}">
   </div>
   <div class="speaker-profile-data">
-    <h3 class="speaker-profile-data-name">${speakers[speaker].name}</h3>
+    <h3 class="speaker-profile-data-name">${speakers.name}</h3>
     <p class="speaker-profile-data-role">${speakers[speaker].role}</p>
     <div class="separator"></div>
     <p class="speaker-profile-data-description">${speakers[speaker].roleDescription}</p>
